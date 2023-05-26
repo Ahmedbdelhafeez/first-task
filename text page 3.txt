@@ -1,0 +1,207 @@
+css
+
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.features1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.Members{
+    width: 32.62rem;
+height: 11.37rem;
+background: #FFFFFF;
+box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+border-radius: 0.87rem;
+margin-left: 11rem;
+margin-right: 2.75rem;
+margin-bottom: 2.75rem;
+display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.img-Members{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 4.12rem;
+    height: 4.12rem;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 4.75rem;
+    margin-right: 2.25rem;
+}
+   
+
+.h3-members{
+    width: 13.06rem;
+height: 1.62rem;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 37.5rem;
+font-size: 1.5rem;
+line-height: 1.62rem;
+color: #2F2C4A;
+margin-top: 2.87rem;
+margin-right: 10.68rem;
+margin-bottom: 0.87rem; 
+
+}
+.p-members{
+    width: 19.68rem;
+height: 3.25rem;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 1.62rem;
+color: #656464;
+margin-bottom: 2.75rem;
+margin-right: 4.06rem;
+}
+.Groups{
+    width: 32.62rem ;
+height: 11.37rem;
+background: #FFFFFF;
+border-radius: 0.87rem;
+box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+margin-bottom: 2.75rem;
+margin-right: 11rem;
+margin-left: 2.75rem;
+}
+.img-Groups{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 4.12rem;
+    height: 4.12rem;
+    margin-top: 2.5rem;
+    margin-bottom: 4.75rem;
+    margin-right: 2.25rem;
+}
+.h3-Groups{
+    width: 5.31rem;
+height: 1.62rem;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 37.5rem;
+font-size: 1.5rem;
+line-height: 1.62rem;
+color: #2F2C4A;
+margin-top: 2.87rem;
+margin-right: 18.43rem;
+margin-bottom: 0.87rem; 
+}
+.p-Groups{
+    width: 19.68rem;
+height: 3.25rem;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 25rem;
+font-size: 1rem;
+line-height: 1.62rem;
+color: #656464;
+margin-right: 4.06rem;
+margin-bottom: 2.75rem;
+}
+.features2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.Forum{
+    width: 32.62rem;
+    height: 11.37rem;
+    background: #FFFFFF;
+    border-radius: 0.87rem;
+    margin-left: 11rem;
+margin-right: 2.75rem;
+margin-bottom: 2.75rem;
+display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+
+
+
+html
+
+<div class="features">
+         <div class="features1">
+              <div class="Members">
+                <div class="img-Members">
+                    <img alt="" src="Icon.png" alt="">
+                </div>
+                <div>
+                 <p class="h3-members"> Members, Friends </p>
+                 <p class="p-members">Members, Friends Connection 
+                    ( like followers ), Private Message</p>
+                </div>
+              
+              <div class="Groups">
+                <div class="img-Groups">
+                <img  alt="" src="Icon11.png" alt="">
+            </div>
+            <div>
+                <p class="h3-Groups">Groups</p>
+                <p class="p-Groups">Your users can create groups to
+                     let other users to join and talk</p>
+                    </div>
+              </div>
+            </div>
+            <div class="features2">
+              <div class="Forum">
+                <div class="img-Forum">
+                <img  alt="" src="Icon (1).png" alt="">
+            </div>
+            <div>
+                <h3 class="h3-Forum">Forum</h3>
+                <p class="p-Forum">Forum is ready by BBPress. Your users 
+                    can make topics and talk.</p>
+                </div>
+              </div>
+              <div class="Custom-Module">
+                <div class="img-Custom-Module">
+                <img  alt="" src="Icon (2).png" alt="">
+            </div>
+            <div>
+                <h3 class="h3-Custom-Module">Custom Module</h3>
+                <p class="p-Custom-Module">You can create Members, Groups Module. We already 
+                    created 3 modules. It's by drag & drop live builder.</p>
+                </div>
+              </div>
+            </div>
+            <div class="features3">
+              <div class="List-Builder">
+                <div class="img-List-Builder">
+                <img  alt="" src="Icon (3).png" alt="">
+            </div>
+            <div>
+                <h3 class="h3-List-Builder">List Builder</h3>
+                <p class="p-List-Builder">Members, Groups list can be modified
+                     by drag & drop live builder.</p>
+                    </div>
+              </div>
+              <div class="List-Scroll-Effects">
+                <div class="img-List-Scroll-Effects">
+                <img  alt="" src="Icon (4).png" alt="">
+            </div>
+            <div>
+                <h3 class="h3-List-Scroll-Effects">List Scroll Effects</h3>
+                <p class="p-List-Scroll-Effects">8 different scroll effects are ready.
+                    You can always change by your tastes.</p>
+                </div>
+                
+              </div>
+            </div>
+         
+      </div>
+   
